@@ -1,0 +1,463 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+html
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: auto;
+    width: auto;
+}
+
+.page-wrapper
+{
+ width: 100%;
+ background-color: #f2f2f2
+}
+
+/* CSS Icon */
+i.ti-search {
+    position: absolute;
+    padding: 0 20px;
+    font-size: 20px;
+    vertical-align: middle;
+    line-height: 2;
+    cursor: pointer;
+    right: 0;
+}
+
+.fa-solid.fa-0,.ti-arrow-up,
+.ti-notepad
+{
+    font-size: 16px;
+    margin: 1px 9px 0 0;
+}
+
+.ti-mobile,.fa-solid.fa-apple-whole,
+.fa-solid.fa-laptop,.fa-solid.fa-headphones,
+.fa-solid.fa-battery-empty,.fa-solid.fa-desktop,.ti-harddrives
+{
+    font-size: 16px;
+}
+
+.header-section
+{
+
+}
+.header-banner
+{
+
+}
+.header-banner.row
+{
+
+}
+.header-banner.row.banner{
+
+}
+/* Phần header content */
+.header-content
+{
+
+}
+
+.header-content .logo
+{
+
+}
+
+.header-content.header-form
+{
+
+}
+
+.header-content .header-form  #search-mini-form
+{
+    background-color: white;
+    border-color: white;
+    border-radius: 50px;
+    outline-color: white;
+    outline-style: auto;
+}
+
+.header-content .header-form #txtSearch
+{
+    background-color: white;
+    border-color: white;
+    border-radius: 50px;
+    outline-color: white;
+    outline-style: auto;
+}
+
+.header-content.top-main-infor
+{
+
+}
+
+
+
+.main-info-item.info-hotline {
+    padding-right: 10px;
+}
+
+.info-hotline .phone-icon
+{
+    color: white;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+
+.info-hotline .info a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.header-content .top-main-infor .info-customers
+{
+    border-left: 1px solid white;
+    padding: 0 10px 0 10px;
+    border-right: 1px solid white;
+
+} 
+.info-customers .user-icon
+{
+    color: white;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+ul.header-links 
+{
+    padding: 0;
+    margin: 0%;
+}
+.info-customers .header-links a
+{
+    color: white;
+    text-decoration: none;
+}
+.info-customers .header-links .members-section
+{
+    margin-left: 8px;
+}
+
+.top-main-infor .shopify-icon {
+    color: white;
+    font-size: 20px;
+    margin-right: 8px;
+    padding-left: 10px;
+}
+
+.header-custom-block
+{
+    position: relative;
+}
+.header-custom-block li
+{
+    list-style-type: none;
+}
+.header-custom-block li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* Hover customer-block */
+.header-custom-block li:hover a
+{
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.39);
+}
+/* END HEADER */
+/* Start: NAV */
+
+.row-nav
+{
+    box-shadow: 0 5px 5px rgb(0 0 0 / 10%);
+    background-color: #fff;
+}
+.navigation
+{
+    position: relative;
+    flex: 1;
+    justify-content: space-around;
+}
+.nav-item
+{
+    padding: 24px 8px;
+}
+.nav-item li
+{
+
+}
+.nav-link
+{
+    padding: 0;
+    text-decoration: none;
+}
+
+a.nav-link
+{
+    color: black;
+    font-size: 16px;
+}
+
+.menu-function-wrapper
+{
+
+}
+
+.menu-function-wrapper .menu-function-item
+{
+    text-decoration: none;
+    color: black;
+    height: 40px;
+    border: 0.5px solid #BDBDBD;
+    border-radius: 8px;
+}
+
+.menu-function-item .wrapper
+{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.wrapper .font-caption
+{
+    font-size: 13px;
+}
+
+.menu-item-special
+{
+    background-color: #be1e2d;
+}
+span.title.font-caption.font-special {
+    color: white;
+}
+
+/* Hover Nav */
+a:hover.nav-link
+{
+    color: #be1e2d;
+}
+li:hover.nav-item>.sub-nav
+{
+    display: block;
+}
+a:hover.menu-function-item
+{
+    background-color: #be1e2d;
+    border: 1px solid #be1e2d;
+    color: white;
+}
+a:hover.menu-item-special
+{
+    background-color: #ffb638;
+    border: 1px solid #ffb638;
+}
+a:hover.menu-item-special
+span.title.font-caption.font-special
+{
+    color: #333333;
+}
+
+/* END HOVER */
+/* SUB NAV */
+.sub-nav
+{
+    background-color: white;
+    position: absolute;
+    top: 70px;
+    padding: 20px;
+    border: 1px solid #d1d1d1;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 19%);
+    min-width: 180px;
+    display: none;
+    z-index: 1;
+}
+
+.sub-nav-section
+{
+    display: inline-block;
+    padding: 0 15px;
+}
+.sub-nav-item
+{
+    
+}
+li.sub-nav-item 
+{
+    list-style: none;
+    margin-bottom: 15px;
+}
+a.sub-nav-link
+{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+/* Hover sub-nav 1 */
+a:hover.sub-nav-link
+{
+    text-decoration: underline;
+    color: red;
+    
+}
+
+/* END NAV */
+
+/* START MAIN */
+main
+{}
+.content{}
+
+.home-top-promotion
+{}
+
+
+/* ASIDE_LEFT */
+#trending-content
+{
+    
+}
+.trending-body
+{
+    padding: 15px;
+    background-color: #fff;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    min-width: 190px
+}
+ .title-trending
+{
+    background-color: #be1e2d;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.trending-item
+{
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 7px;
+    padding-bottom: 7px;
+
+}
+
+a.trend-links {
+    text-decoration: none;
+    color: black;
+}
+
+/* Aside-Right */
+.Hot{
+
+}
+
+.item.hot-deal-accessories.text-center {
+    margin-bottom: 16px;
+}
+
+.item>a>img
+{
+    width: 100%;
+}
+
+span.Hot-item {
+    float: left;
+    background-color: brown;
+    padding: 0 10px;
+    border-radius: 8px;
+    color: white;
+}
+
+a.font-subtitle-2 {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* hover */
+a:hover.font-subtitle-2
+{
+    color: #be1e2d;
+}
+
+.trending-item:hover>a
+{
+    color: #be1e2d;
+}
+/* End Aside Right */
+
+/* Phan noi dung */
+h5.as.col-3.text-left-center {
+    padding: 10px;
+    color: white;
+    margin: 0;
+}
+.btn-light
+{
+    float: right;
+    margin: 5px;
+}
+
+.col{
+    padding: 10px;
+}
+
+/* Footer */
+ul
+{
+    list-style: none;
+}
+li
+{
+    padding: 5px;
+}
+.footer-link-wrapper.content-part {
+    display: flex;
+    margin-top: 10px;
+}
+
+.footer-link.footer-link-left,.footer-link-right {
+    flex: 1;
+}
+.footer-link-left ul,.footer-link-right ul
+{
+    list-style: none;
+} 
+
+.footer-link-left ul li,.footer-link-right ul li
+{
+    padding: 10px;
+}
+
+.footer-link-left a,.footer-link-right a
+{
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+
+.footer-link-left
+{
+    border-right: 1px solid #e0e0e0;
+}
+
+
+/* Ho tro */
+.support-list ul
+{
+    list-style: none;
+    padding: 0;
+}
